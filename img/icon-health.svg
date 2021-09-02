@@ -1,0 +1,26 @@
+<svg width="90" height="90" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter x="-25.6%" y="-25.6%" width="151.1%" height="151.1%" filterUnits="objectBoundingBox" id="a">
+            <feOffset dy="6" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 1 0 0 0 0 0.840930293 0 0 0 0 0.194045351 0 0 0 0.2 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g filter="url(#a)" fill="none" fill-rule="evenodd">
+        <g transform="translate(5.809 9)">
+            <path d="M1.66 15.746c1.106-1.05 2.56-1.575 4.012-1.575 1.454 0 2.907.525 4.013 1.575 1.279 1.213 3.351 1.213 4.63 0 2.212-2.1 5.813-2.1 8.026 0 2.212 2.1 2.212 5.515 0 7.615L12 33.17l-10.342-9.81c-2.212-2.1-2.212-5.516 0-7.615z" fill="#F9BA48" fill-rule="nonzero"/>
+            <path d="M11.473 15.86C5.877 13.243 2.264 14.058.635 18.304c-1.63 4.246 1.983 9.224 10.838 14.934" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+            <circle stroke="#333" stroke-width="3" cx="44.191" cy="3" r="4.5"/>
+            <circle stroke="#333" stroke-width="3" cx="66.191" cy="3" r="4.5"/>
+            <circle stroke="#333" stroke-width="3" cx="55.191" cy="41" r="4.5"/>
+            <path d="M38.083 3.031c-3.18.51-4.77 1.821-4.77 3.935V21.06C35.076 29.303 40.633 35.95 49.986 41" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+            <path d="M72.392 3.031c3.18.51 4.77 1.821 4.77 3.935V21.06C75.493 29.303 69.982 35.95 60.63 41" stroke="#333" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M55.191 47.076v20.835c-1.127 4.09-3.4 6.136-6.815 6.136-3.415 0-5.795-1.938-7.139-5.814v-14.02c-1.089-3.869-3.73-5.803-7.924-5.803-4.194 0-6.576 1.934-7.147 5.802v14.02c-.228 3.877-2.489 5.815-6.782 5.815-4.292 0-6.804-2.045-7.534-6.136V34.108" stroke="#333" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/>
+            <path d="M12.255 15.86c5.596-2.617 9.209-1.802 10.838 2.444 1.629 4.246-1.984 9.224-10.838 14.934" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+        </g>
+    </g>
+</svg>
