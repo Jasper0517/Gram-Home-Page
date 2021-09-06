@@ -1,16 +1,5 @@
 <svg width="90" height="90" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <filter x="-25.6%" y="-25.6%" width="151.1%" height="151.1%" filterUnits="objectBoundingBox" id="a">
-            <feOffset dy="6" in="SourceAlpha" result="shadowOffsetOuter1"/>
-            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
-            <feColorMatrix values="0 0 0 0 1 0 0 0 0 0.840930293 0 0 0 0 0.194045351 0 0 0 0.2 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"/>
-                <feMergeNode in="SourceGraphic"/>
-            </feMerge>
-        </filter>
-    </defs>
-    <g filter="url(#a)" fill-rule="nonzero" fill="none">
+    <g fill-rule="nonzero" fill="none">
         <path d="M45 5C22.928 5 5 22.928 5 45s17.928 40 40 40 40-17.928 40-40S67.072 5 45 5zm0 76.53C24.855 81.53 8.47 65.145 8.47 45S24.855 8.47 45 8.47 81.53 24.855 81.53 45 65.145 81.53 45 81.53z" fill="#333"/>
         <path d="M65.82 36.325H53.674V24.181c0-.964-.771-1.735-1.735-1.735H38.06c-.964 0-1.735.77-1.735 1.735v12.144H24.181c-.964 0-1.735.771-1.735 1.735v13.88c0 .964.77 1.735 1.735 1.735h12.144v12.144c0 .964.771 1.735 1.735 1.735h13.88c.964 0 1.735-.77 1.735-1.735V53.675h12.144c.964 0 1.735-.771 1.735-1.735V38.06c-.096-.964-.867-1.735-1.735-1.735z" fill="#F9BA48"/>
     </g>

@@ -1,7 +1,7 @@
 body {
 	margin: 0 auto;
 	max-width: 1920px;
-	min-width: 375px;
+	min-width: 300px;
 	font-family: PingFang SC; 
 }
 html {
@@ -23,7 +23,7 @@ body {
 @keyframes myAnimation
 {
   0% { opacity: 0.35;}
-  100% { opacity: 0.65; }
+  100% { opacity: 1; }
 }
 .set-in-center {
 	padding: 8%;
@@ -74,8 +74,8 @@ body {
 	z-index: 99999;
 	position: fixed;
 	top: 50%;
-	right: 0px;
-	width: 20px;
+	right: 10px;
+	width: 5px;
 	height: 200px;
 	transform: translateY(-50%);
 }
@@ -118,7 +118,6 @@ body {
 }
 .gram-logo {
 	width: 253px;
-	height: 40px;
 }
 .scroll-down {
 	// margin: 88px 0 50px 0;
@@ -178,12 +177,12 @@ body {
 }
 .sec-title {
 	font-size: 28px;
-	margin-top: -82px;
+	margin-top: -87px;
 }
 .title-line {
 	width: 70px;
 	height: 4px;
-	margin: 0 auto;
+	margin: 9px auto;
 	border-radius: 3px;
 	background-image: linear-gradient(to right, #ffc169, #ff8d38);
 }
@@ -290,6 +289,7 @@ body {
 .icon-txt {
 	margin-top: 30px;
 	font-size: 14px;
+	white-space: nowrap;
 }
 .protable-layout {
 	display: none;
@@ -394,6 +394,7 @@ body {
 	}
 	.sec-5-title {
 		margin-bottom: 100px;
+		line-height: 1.5em;
 	}
 	.sec-5-txt {
 		font-size: 14px;
@@ -460,6 +461,10 @@ body {
 	.sec-1-title {
 		font-size: 50px;
 	}
+	.sec-title {
+		font-size: 28px;
+		margin-top: -56px;
+	}
 	.section-bg-txt {
 		font-size: 97px;
 	}
@@ -515,11 +520,14 @@ body {
 		width: 40%;
 	}
 	.sec-5-board {
-		margin: 0 30px;
+		margin: 0 30px 30px 30px;
 	}
 	.sec-5-txt {
 		padding: 20px 0 206px 0;
 	}
+	.sec-1-title {
+    font-size: 38px;
+  }
 }
 @media (max-width: 1520px) {
 	.section {
@@ -539,8 +547,12 @@ body {
   content: ""!important;
   padding: 0%!important;
   width: 36px!important;
-  height: 5px!important;
+  height: 7px!important;
   line-height: 0!important;
-  top: 17px!important;
+  top: 16px!important;
   border-radius: 25px!important;
+}
+.slick-dots li button:before {
+	font-size: 7px!important;
+	top: 0.03rem!important;
 }

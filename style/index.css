@@ -1,7 +1,7 @@
 body {
   margin: 0 auto;
   max-width: 1920px;
-  min-width: 375px;
+  min-width: 300px;
   font-family: PingFang SC;
 }
 
@@ -27,7 +27,7 @@ body {
     opacity: 0.35;
   }
   100% {
-    opacity: 0.65;
+    opacity: 1;
   }
 }
 
@@ -36,7 +36,7 @@ body {
     opacity: 0.35;
   }
   100% {
-    opacity: 0.65;
+    opacity: 1;
   }
 }
 
@@ -96,8 +96,8 @@ body {
   z-index: 99999;
   position: fixed;
   top: 50%;
-  right: 0px;
-  width: 20px;
+  right: 10px;
+  width: 5px;
   height: 200px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -156,7 +156,6 @@ body {
 
 .gram-logo {
   width: 253px;
-  height: 40px;
 }
 
 .scroll-down {
@@ -227,13 +226,13 @@ body {
 
 .sec-title {
   font-size: 28px;
-  margin-top: -82px;
+  margin-top: -87px;
 }
 
 .title-line {
   width: 70px;
   height: 4px;
-  margin: 0 auto;
+  margin: 9px auto;
   border-radius: 3px;
   background-image: -webkit-gradient(linear, left top, right top, from(#ffc169), to(#ff8d38));
   background-image: linear-gradient(to right, #ffc169, #ff8d38);
@@ -390,6 +389,7 @@ body {
 .icon-txt {
   margin-top: 30px;
   font-size: 14px;
+  white-space: nowrap;
 }
 
 .protable-layout {
@@ -507,6 +507,7 @@ body {
   }
   .sec-5-title {
     margin-bottom: 100px;
+    line-height: 1.5em;
   }
   .sec-5-txt {
     font-size: 14px;
@@ -568,6 +569,10 @@ body {
   }
   .sec-1-title {
     font-size: 50px;
+  }
+  .sec-title {
+    font-size: 28px;
+    margin-top: -56px;
   }
   .section-bg-txt {
     font-size: 97px;
@@ -633,10 +638,13 @@ body {
     width: 40%;
   }
   .sec-5-board {
-    margin: 0 30px;
+    margin: 0 30px 30px 30px;
   }
   .sec-5-txt {
     padding: 20px 0 206px 0;
+  }
+  .sec-1-title {
+    font-size: 38px;
   }
 }
 
@@ -659,9 +667,14 @@ body {
   content: "" !important;
   padding: 0% !important;
   width: 36px !important;
-  height: 5px !important;
+  height: 7px !important;
   line-height: 0 !important;
-  top: 17px !important;
+  top: 16px !important;
   border-radius: 25px !important;
+}
+
+.slick-dots li button:before {
+  font-size: 7px !important;
+  top: 0.03rem !important;
 }
 /*# sourceMappingURL=index.css.map */
